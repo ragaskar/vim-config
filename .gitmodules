@@ -122,7 +122,7 @@
 	url = git@github.com:matt-royal/diffthese.git
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
-	url = git://github.com/nono/vim-handlebars.git
+	url = https://github.com/nono/vim-handlebars.git
 [submodule "bundle/vim-colors-tomorrow"]
 	path = bundle/vim-colors-tomorrow
 	url = https://github.com/chriskempson/vim-tomorrow-theme.git
