@@ -21,6 +21,7 @@ set wildignore+=tmp/**             " ...Also tmp files.
 set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=vendor/**          " ...Also vendor.
+set wildignore+=spec/reports/**    " ...Also JUnit reports
 
 set list                        " Show whitespace
 if has("gui_running")
