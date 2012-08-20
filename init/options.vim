@@ -38,6 +38,12 @@ set wildmode=list:longest       " Bash-like tab completion
 set scrolloff=3                 " Scroll when the cursor is 3 lines from edge
 set cursorline                  " Highlight current line
 
+" Kill that $%^& bell
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
+
 " More detailed status line
 set statusline=[%n]\ %f\ %m\ %y
 set statusline+=%{fugitive#statusline()} " Show git details"
