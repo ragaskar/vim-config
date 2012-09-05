@@ -126,3 +126,9 @@ nmap du :diffupdate<CR>
 
 " Gundo.vim
 map <leader>u :GundoToggle<CR>
+
+" Map keys to emulate MacVim with iTerm2 key shortcuts
+map <leader>`t :tabnew<cr>
+map <leader>`p :tabprevious<cr>
+map <leader>`n :tabnext<cr>
+map <leader>`q :q<cr>
