@@ -7,6 +7,18 @@
     git submodule update --init
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/ackrc ~/.ackrc
+        
+    
+    
+If you have RVM going on:
+
+    rvm use system
+   
+conf and make command-t:
+
+    cd ~/.vim/bundle/command-t/ruby/command-t
+    ruby extconf.rb
+    make
 
 # Updating
 
