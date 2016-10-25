@@ -133,3 +133,6 @@ map <leader>`t :tabnew<cr>
 map <leader>`p :tabprevious<cr>
 map <leader>`n :tabnext<cr>
 map <leader>`q :q<cr>
+
+"IntelliJ style split nav (alt-tab switch split)
+noremap <a-tab> <C-W><C-W>
