@@ -22,6 +22,7 @@ set wildignore+=public/uploads/**  " ...Also uploads.
 set wildignore+=public/images/**   " ...Also images.
 set wildignore+=spec/reports/**    " ...Also JUnit reports
 set wildignore+=.idea/**           " ...Also .idea
+set wildignore+=node_modules           " ...Also .idea
 
 set list                        " Show whitespace
 if has("gui_running")
